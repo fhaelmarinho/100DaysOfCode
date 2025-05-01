@@ -8,6 +8,6 @@ A ideia proposta é criar principalmente o hábito de programar diariamente, ass
 
 Então vamos lá. Bora codar 🚀
 
-Day 0 - Hello World
-Day 1 - Receber dados e salvar em uma lista
-Day 2 - Cálculo de tempo e cobrança de estacionamento
+Day 0 - Hello World </br>
+Day 1 - Receber dados e salvar em uma lista</br>
+Day 2 - Cálculo de tempo e cobrança de estacionamento</br>
