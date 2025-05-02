@@ -27,7 +27,7 @@ def parking_bill(E, L):
 
 
 # Chamada da função com valores de exemplo
-E = "0900"
+E = "0800"
 L = "1130"
 
 print(parking_bill(E, L))
