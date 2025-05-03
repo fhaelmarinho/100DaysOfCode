@@ -12,3 +12,4 @@ Day 0 - Hello World</br>
 Day 1 - Receber dados e salvar em uma lista</br>
 Day 2 - Cálculo de tempo e cobrança de estacionamento</br>
 Day 3 - Conversor de PDF para DOCX</br>
+Day 4 - Gerador de QR Code
