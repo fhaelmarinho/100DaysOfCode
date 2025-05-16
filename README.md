@@ -16,4 +16,6 @@ Day 6 - Sistema bancário com as principais operações </br>
 Day 7 - Script de envio de mensagens pelo whatsapp</br>
 Day 8 - Chapéu Seletor de Hogwarts</br>
 Day 9 - Conversor de moedas BRL --> [USD/ EUR/ BTC]</br>
-Day 10 - Criação de API com Flask com endpoint para calcular de vendas
+Day 10 - Criação de API com Flask com endpoint para calcular de vendas</br>
+Day 11 - Sistema Bancário com POO, realizando as principais operações</br>
+Day 12 - Simulação de sistema de busca de letra de músicas com Flask
