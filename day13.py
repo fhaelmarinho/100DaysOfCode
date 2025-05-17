@@ -1,5 +1,7 @@
 # ✨ 100 Days of Code Challenge - Day 13/100 💻
 from math import sqrt
+import matplotlib.pyplot as plt
+import numpy as np
 
 def delta(a, b, c):
     d = b**2 - (4*a*c)
@@ -18,6 +20,15 @@ def bhaskara(a, b, c):
         x2 = (-b - sqrt(d))/(2*a)
         return f"Delta is positive, two real roots: X1 = {x1}, e X2 = {x2}"
 
+def graph(a, b, c):
+    x = np.linspace(-10, 10, 500)
+    y = a*x**2 + b*x + c
+    plt.figure(figsize=(10, 6))
+    plt.title("Graph of the quadratic function")
+    plt.plot(x, y)
+
+
+
 def main():
     a = int(input("Enter the value of a: "))
     b = int(input("Enter the value of b: "))
@@ -26,6 +37,10 @@ def main():
     result = bhaskara(a, b, c)
     print(f"Delta: {delta(a, b, c)}")
     print(result)
+
+# generate Graph
+    graph(a, b, c)
+    plt.show()
 
 if __name__ == "__main__":
     main()
