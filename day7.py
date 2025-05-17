@@ -19,5 +19,6 @@ for phone_numbers in phone_number:
     try:
         pwk.sendwhatmsg_instantly(phone_number, message, hour, minute)
         print(f"Message sent to {phone_number}")
+        time.sleep(10)  # wait for 10 seconds before sending the next message
     except Exception as e:
         print(f"An error occurred: {e}")
