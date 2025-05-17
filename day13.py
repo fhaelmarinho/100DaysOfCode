@@ -21,13 +21,19 @@ def bhaskara(a, b, c):
         return f"Delta is positive, two real roots: X1 = {x1}, e X2 = {x2}"
 
 def graph(a, b, c):
-    x = np.linspace(-10, 10, 500)
+    x_vertex = -b/(2*a)
+    x = np.linspace(x_vertex - 5, x_vertex + 5, 500)
     y = a*x**2 + b*x + c
     plt.figure(figsize=(10, 6))
     plt.title("Graph of the quadratic function")
     plt.plot(x, y)
+    plt.grid(True)
 
-
+    d = delta(a, b, c)
+    if d >= 0:
+        x1 = (-b + sqrt(d)) / (2 * a)
+        x2 = (-b - sqrt(d)) / (2 * a)
+        plt.scatter([x1, x2], [0, 0], color='red', label=f'Roots: {x1:.2f}, {x2:.2f}')
 
 def main():
     a = int(input("Enter the value of a: "))
