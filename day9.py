@@ -10,7 +10,7 @@ def convert_currency(amount, from_currency, to_currency):
         return f"Error accessing the API for {from_currency} -> {to_currency}."
 
     data = response.json()
-    key = f"{from_currency}{to_currency}"
+    key = f"{from_currency}{to_currency}" #A chave necessária para acessar a taxa de câmbio no JSON é construída dinamicamente com base nos códigos das moedas (from_currency e to_currency).
     
     try:
         rate = float(data[key]['bid'])
