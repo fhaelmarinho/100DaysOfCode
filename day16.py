@@ -1,3 +1,5 @@
+# ✨ 100 Days of Code Challenge - Day 16/100 💻
+
 from datetime import datetime
 import math
 
