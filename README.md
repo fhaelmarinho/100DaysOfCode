@@ -24,3 +24,4 @@ Day 14 - Sistema de Bibliotecas com POO</br>
 Day 15 - Prática de POO com Herença e Polimorfismo</br>
 Day 16 - Sistema de gerenciamento de tarefas com POO</br>
 Day 17 - Jogo Black Jack (Jogo de 21)</br>
+Day 18 - Gerador de senhas, como POO, Random e tratamento de exceções</br>
